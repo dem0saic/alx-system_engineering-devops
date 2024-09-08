@@ -24,7 +24,7 @@ if [ -e $var_7 ]; then
 	fi
 
 	if [ -f $var_7 ]; then
-		echo "$var_7 is a regualr file"
+		echo "$var_7 is a regular file"
 	fi
 else
 	echo "$var_7 file does not exist"
