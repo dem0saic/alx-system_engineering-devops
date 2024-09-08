@@ -13,5 +13,5 @@ while [ $h -lt 13 ]; do
 		echo "$s"
 		((s++))
 	done
-  ((i++))
+  ((h++))
 done
