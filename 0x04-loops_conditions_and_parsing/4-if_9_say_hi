@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+# Print Hi at the 9th time
+
+var_4="Best School"
+var_5="Hi"
+i="0"
+
+while [ $i -lt 10 ]; do
+  if [ $i -eq 9 ]; then
+   	echo "$var_5"
+  fi
+  echo "$var_4";
+  ((i++))
+done
