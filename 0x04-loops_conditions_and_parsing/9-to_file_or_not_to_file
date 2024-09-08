@@ -18,9 +18,9 @@ var_7="school"
 if [ -e $var_7 ]; then
 	echo "$var_7 file exists"
 	if [ -s $var_7 ]; then
-		echo "$var_7 file is empty"
-	else 
 		echo "$var_7 file is not empty"
+	else 
+		echo "$var_7 file is empty"
 	fi
 
 	if [ -f $var_7 ]; then
